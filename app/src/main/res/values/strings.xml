@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sweather</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="list">
+        <item>今日天气</item>
+        <item>一天后</item>
+        <item>两天后</item>
+        <item>三天后</item>
+        <item>四天后</item>
+        <item>五天后</item>
+
+        <item>返回</item>
+        <item>退出</item>
+    </string-array>
+    <string name="drawer_open">选择</string>
+    <string name="drawer_close">选择</string>
+
+</resources>

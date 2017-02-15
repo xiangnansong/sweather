@@ -1,0 +1,351 @@
+<ScrollView
+    android:id="@+id/scroll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:text="天气指数"
+            android:textColor="#fff"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/point"
+                    android:layout_height="30dp"
+
+                    android:layout_width="30dp"/>
+
+                <ImageView
+                    android:src="@drawable/chuanyi"
+                    android:layout_height="40dp" />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/transpace" />
+
+                <TextView
+                    android:textSize="22sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/kuang"
+                    android:layout_width="200dp"
+                    android:text="建议着厚外套加毛衣"
+                    android:gravity="center"
+                    android:id="@+id/chuanyi" />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/point"
+                    android:layout_height="30dp"
+
+                    android:layout_width="30dp"/>
+
+                <ImageView
+                    android:src="@drawable/shushi"
+                    android:layout_height="40dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/transpace" />
+
+                <TextView
+                    android:textSize="22sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/kuang"
+                    android:layout_width="200dp"
+                    android:text="建议着厚外套加毛衣"
+                    android:gravity="center"
+                    android:id="@+id/shushi" />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/point"
+                    android:layout_height="30dp"
+
+                    android:layout_width="30dp"/>
+
+                <ImageView
+                    android:src="@drawable/ganmao"
+                    android:layout_height="40dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/transpace" />
+
+                <TextView
+                    android:textSize="22sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/kuang"
+                    android:layout_width="200dp"
+                    android:text="建议着厚外套加毛衣"
+                    android:gravity="center"
+                    android:id="@+id/ganmao" />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/point"
+                    android:layout_height="30dp"
+
+                    android:layout_width="30dp"/>
+
+                <ImageView
+                    android:src="@drawable/yundong"
+                    android:layout_height="40dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/transpace" />
+
+                <TextView
+                    android:textSize="22sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/kuang"
+                    android:layout_width="200dp"
+                    android:text="建议着厚外套加毛衣"
+                    android:gravity="center"
+                    android:id="@+id/yundong" />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/point"
+                    android:layout_height="30dp"
+
+                    android:layout_width="30dp"/>
+
+                <ImageView
+                    android:src="@drawable/guomin"
+                    android:layout_height="40dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/transpace" />
+
+                <TextView
+                    android:textSize="22sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/kuang"
+                    android:layout_width="200dp"
+                    android:text="建议着厚外套加毛衣"
+                    android:gravity="center"
+                    android:id="@+id/guomin" />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/point"
+                    android:layout_height="30dp"
+
+                    android:layout_width="30dp"/>
+
+                <ImageView
+                    android:src="@drawable/uv"
+                    android:layout_height="40dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/transpace" />
+
+                <TextView
+                    android:textSize="22sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/kuang"
+                    android:layout_width="200dp"
+                    android:text="建议着厚外套加毛衣"
+                    android:gravity="center"
+                    android:id="@+id/UV" />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/point"
+                    android:layout_height="30dp"
+
+                    android:layout_width="30dp"/>
+
+                <ImageView
+                    android:src="@drawable/yuehui"
+                    android:layout_height="40dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/transpace" />
+
+                <TextView
+                    android:textSize="22sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/kuang"
+                    android:layout_width="200dp"
+                    android:text="建议着厚外套加毛衣"
+                    android:gravity="center"
+                    android:id="@+id/yuehui" />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/point"
+                    android:layout_height="30dp"
+
+                    android:layout_width="30dp"/>
+
+                <ImageView
+                    android:src="@drawable/jiaotong"
+                    android:layout_height="40dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/transpace" />
+
+                <TextView
+                    android:textSize="22sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/kuang"
+                    android:layout_width="200dp"
+                    android:text="建议着厚外套加毛衣"
+                    android:gravity="center"
+                    android:id="@+id/jiaotong" />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/point"
+                    android:layout_height="30dp"
+
+                    android:layout_width="30dp"/>
+
+                <ImageView
+                    android:src="@drawable/yusan"
+                    android:layout_height="40dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/transpace" />
+
+                <TextView
+                    android:textSize="22sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/kuang"
+                    android:layout_width="200dp"
+                    android:text="建议着厚外套加毛衣"
+                    android:gravity="center"
+                    android:id="@+id/yusan" />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/point"
+                    android:layout_height="30dp"
+
+                    android:layout_width="30dp"/>
+
+                <ImageView
+                    android:src="@drawable/xiche"
+                    android:layout_height="40dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView android:src="@drawable/transpace" />
+
+                <TextView
+                    android:textSize="22sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/kuang"
+                    android:layout_width="200dp"
+                    android:text="建议着厚外套加毛衣"
+                    android:gravity="center"
+                    android:id="@+id/xiche" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>
